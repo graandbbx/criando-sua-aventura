@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <title>Aventura na floresta</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.webp" alt="O começo da aventura">
+            <p>Você está fazendo uma trilha em uma floresta gigante, de repente, você avistou um mapa perdido e resolveu dar uma olhada. Você percebeu que o mapa está indicando dois caminhos que tem dois Xs, que aparentam ter alguma coisa. Qual caminho irá escolher?
+                <button class="btn-proximo" data-proximo="1">Uma trilha fechada de terra</button>
+                <button class="btn-proximo" data-proximo="2">Uma trilha aberta com vários lagos por perto</button>
+            </p>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você começa a sua jornada em uma trilha fechada de terra, com várias árvores grandes e densas, com vários obstáculos na frente. Você percebe que essa trilha é muito longa e exaustante e vai exigir alguns dias de movimento. O que você vai fazer?
+                <button class="btn-proximo" data-proximo="3">Montar uma barraca no local</button>
+                <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
+            </p>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Você começa a sua jornada em uma trilha aberta com diversos lagos por pertos, com águas limpas e cristalinas. Porém, um pouco longe dos lagos, você encontra uma estranha estrada de terra barricada, apesar de estranho, a sua curiosidade fala bastante alto em seu ouvido. O quer irá fazer?</p>
+            <button class="btn-proximo" data-proximo="5">Passar por essa estrada</button>
+            <button class="btn-proximo" data-proximo="6">Desistir e voltar para casa</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Você montou a sua pequena barraca em um pequeno espaço de terra para poder descansar e preparou os seus utensílios. Após o decanso, você voltou a fazer sua caminhada, você encontra uma caverna cheia de obstáculos e percebe que é o único caminho em que o mapa está dizendo. O que irá fazer?</p>
+            <button class="btn-proximo" data-proximo="7">Entrar na caverna</button>
+            <button class="btn-proximo" data-proximo="8">Voltar para a casa</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-voltar-casa.webp" alt="imagem Desistindo da aventura e voltando para casa">
+            <p>Você termina a sua jornada e volta para a sua casa. Fim!</p>
+        </div>
+        <div class="passo" id="passo-5">
+            <p>Você retira toda barricagem da estrada e passa por ela. De repente, chegando no final da estrada, você encontra o local onde o X está marcado. A sua felicidade e curiosidade batem muito forte em seu coração.</p>
+            <button class="btn-proximo" data-proximo="9">Cavar o local do X</button>
+        </div>
+        <div class="passo" id="passo-6">
+            <img src="img/cenario-passo4-voltar-casa.webp" alt="imagem Desistindo da aventura e voltando para casa">
+            <p>Você termina a sua jornada e volta para a sua casa. Fim!</p>
+        </div>
+        <div class="passo" id="passo-7">
+            <p>Você entra na caverna com a lanteran equipada, percebe que o local é muito escuro e bem apertado quando mais avança, mesmo assim, você apenas caminha para frente tentando encontrar uma saida. Por sorte, a caverna não é gigante e você consegue sair. Quando saiu, você encontra um circulo de terra com vários totens estranho, e percenbeu que é o local do X, você fica confuso mas a curiosidade fala bem alto.</p>
+            <button class="btn-proximo" data-proximo="10">Cavar o local do X</button>
+        </div>
+        <div class="passo" id="passo-8">
+            <p>Após longa horas de caminhada, você consegue voltar e coloca um fim em sua jornada.</p>
+        </div>
+        <div class="passo" id="passo-9">
+            <p>Você cava o local do X e encontra um estranho artefato com uma língua desconhecida, você guarda o artefato em sua mochila e monta a sua barraca novamente para passar a noite. Depois de passar uma noite na floresta, você volta para casa após caminhar por longas horas na estrada e pensa um pouco sobre o tal artefato, mas fica confuso e não sabe o que fazer...</p>
+        </div>
+        <div class="passo" id="passo-10">
+            <p>Você cava o local do X e encontra ossos humanos enterrados. Você fica em choque e com medo, sem pensar duas vezes, você foge, passando por aquela caverna claustrofóbica, conseguindo voltar para a casa. No próximo dia, você não para de pensar sobre aqueles ossos e se pergunta: O que poderia ser aquilo? </p>
+        </div>
+    </main>
+    <script src='script.js'></script>
+</body>
+</html>
